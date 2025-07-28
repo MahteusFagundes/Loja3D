@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pagina-titulo">Produto - Animatoon 3D</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/compra.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
+    <link rel="stylesheet" href="styles/botão.css">
+</head>
+<body>
+    <header>
+        <!-- Header idêntico ao das outras páginas -->
+        <div class="nav-container">
+            <div class="logo">
+                Animatoon<span>3D</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="animatoon-3d-store.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="produto-compra">
+        <section class="produto-imagens">
+            <img src="" alt="Imagem do Produto" class="imagem-principal" id="imagemPrincipal">
+            <div class="miniaturas" id="miniaturas">
+                <!-- Miniaturas serão inseridas dinamicamente -->
+            </div>
+        </section>
+
+        <section class="produto-detalhes">
+            <h1 id="produto-nome">Nome do Produto</h1>
+            <p class="preco" id="produto-preco">R$ 0,00</p>
+            <p id="produto-descricao">Descrição do produto</p>
+
+            <div class="opcoes-personalizacao" id="opcoes-personalizacao">
+                <!-- Opções de personalização serão inseridas dinamicamente -->
+            </div>
+
+            <div class="calculo-frete">
+                <h3>Calcular Frete</h3>
+                <input type="text" id="cep" placeholder="Digite seu CEP" maxlength="9">
+                <button onclick="calcularFrete()">Calcular</button>
+                <div id="resultado-frete"></div>
+            </div>
+
+            <button class="botao-comprar" onclick="abrirMercadoPago()">
+                Comprar com Mercado Pago
+            </button>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <!-- Footer idêntico ao das outras páginas -->
+    </footer>
+
+    <script src="compras.js"></script>
+    <script src="correios.js"></script>
+    <script src="mercadopago.js"></script>
+    <script src="produtos.js"></script>
+</body>
+</html>

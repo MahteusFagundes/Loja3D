@@ -1,0 +1,73 @@
+/* Estilo para os botões */
+.botao-calcular, .botao-comprar {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.botao-calcular {
+    background-color: #f0f0f0;
+    color: #333;
+    margin-left: 10px;
+}
+
+.botao-calcular:hover {
+    background-color: #e0e0e0;
+}
+
+.botao-comprar {
+    background-color: #0066CC;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-comprar:hover {
+    background-color: #0055AA;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o campo de CEP */
+#cep {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 150px;
+}
+
+/* Estilo para o resultado do frete */
+#resultado-frete {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.opcoes-frete {
+    margin-top: 10px;
+}
+
+.opcao-frete {
+    padding: 8px 0;
+}
+
+/* Melhorar visualização da imagem principal */
+.imagem-principal {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
