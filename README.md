@@ -9,9 +9,6 @@ A **Animatoon 3D** oferece modelos com estilo cartunesco, prontos para uso em di
 
 ## ✨ Características
 
-- ✅ Modelos compatíveis com Blender, Unity, Unreal Engine e impressão 3D
-- ✅ Formatos: `.blend`, `.fbx`, `.obj`, `.stl`, `.glb`
-- ✅ Alguns modelos com rigging e animações
 - ✅ Estilo estilizado e vibrante
 - ✅ Atualizações frequentes
 
